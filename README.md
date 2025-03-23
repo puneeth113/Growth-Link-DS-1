@@ -14,20 +14,7 @@ This project analyzes the **Titanic dataset** to predict passenger survival usin
 - Train and evaluate machine learning models (**Logistic Regression, Random Forest**).  
 - Compare model performance and optimize predictions.  
 
-## **Project Structure**  
-```
-Titanic_Survival_Prediction/
-│── data/                     # Dataset files
-│── notebooks/                 # Jupyter notebooks for analysis
-│── src/                       # Source code for data processing & modeling
-│   ├── data_preprocessing.py  # Handles missing values, encoding, and scaling
-│   ├── model_training.py      # Trains and evaluates models
-│   ├── visualization.py       # Generates plots and insights
-│── results/                   # Model evaluation results
-│── README.md                  # Project documentation
-│── requirements.txt           # Dependencies for running the project
-│── run.py                     # Main script to execute the project
-```
+
 
 ## **Steps to Run the Project**  
 
