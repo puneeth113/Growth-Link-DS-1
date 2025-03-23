@@ -1,56 +1,49 @@
-Here's a **README** file for your Titanic survival prediction project:  
 
 ---
 
 # **Titanic Survival Prediction**  
 
 ## **Project Overview**  
-This project analyzes the **Titanic dataset** to predict passenger survival using **machine learning models**. By examining key features such as **age, gender, ticket class, and fare**, the analysis identifies factors influencing survival and develops predictive models to classify passengers as **survivors or non-survivors**.  
+This project analyzes the **Titanic dataset** to predict passenger survival using machine learning. The analysis covers **data cleaning, feature engineering, exploratory data analysis (EDA), and model training**, all within a **single Jupyter Notebook**.  
 
 ## **Task Objectives**  
-- Load and preprocess the Titanic dataset.  
-- Handle missing values and perform feature engineering.  
-- Explore and visualize survival trends based on different factors.  
-- Train and evaluate machine learning models (**Logistic Regression, Random Forest**).  
-- Compare model performance and optimize predictions.  
+- Understand key survival factors from the Titanic dataset.  
+- Perform **data preprocessing** (handling missing values, encoding categorical features).  
+- Visualize survival patterns and correlations.  
+- Train machine learning models (**Logistic Regression, Random Forest**) for prediction.  
+- Evaluate model performance and optimize results.  
 
-
+## **Project Structure**  
+```
+Titanic_Survival_Prediction/
+│── titanic_analysis.ipynb      # Jupyter Notebook with full analysis
+│── data/                       # Dataset (CSV file)
+│── README.md                   # Project documentation
+```
 
 ## **Steps to Run the Project**  
 
 1. **Set up the environment**  
-   - Install Python (>=3.8) and required dependencies.  
-   - Run:  
+   - Install Python (>=3.8) and Jupyter Notebook.  
+   - Install dependencies:  
      ```bash
      pip install -r requirements.txt
      ```
 
-2. **Load and preprocess the dataset**  
-   - Execute `data_preprocessing.py` to handle missing values and feature encoding.  
+2. **Open and run the Jupyter Notebook**  
+   - Launch Jupyter Notebook:  
      ```bash
-     python src/data_preprocessing.py
+     jupyter notebook
      ```
+   - Open `titanic_analysis.ipynb` and execute the cells step by step.  
 
-3. **Explore and visualize data**  
-   - Run `visualization.py` to generate survival trends and feature distributions.  
-     ```bash
-     python src/visualization.py
-     ```
-
-4. **Train and evaluate models**  
-   - Run `model_training.py` to train models and compare their performance.  
-     ```bash
-     python src/model_training.py
-     ```
-
-5. **Check results**  
-   - Model evaluation metrics will be stored in the `results/` folder.  
+3. **Explore results**  
+   - The notebook includes **data visualization, model evaluation metrics, and key insights**.  
 
 ## **Evaluation Criteria**  
-- **Data Cleaning & Preprocessing:** Handling missing values, encoding categorical variables, and feature selection.  
-- **Model Performance:** Comparing different classifiers and ensuring a well-balanced accuracy score.  
-- **Code Structure & Readability:** Clean, modular, and well-commented code for maintainability.  
-- **Visualization & Insights:** Effective use of visualizations to support findings.  
+- **Data Cleaning & Preprocessing:** Efficient handling of missing values, encoding, and feature selection.  
+- **Exploratory Data Analysis (EDA):** Clear visualizations and survival insights.  
+- **Model Performance:** Well-evaluated models with appropriate accuracy metrics.  
+- **Notebook Readability:** Well-structured code with markdown explanations.  
 
 ---
-
