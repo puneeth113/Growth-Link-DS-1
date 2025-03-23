@@ -67,4 +67,3 @@ Titanic_Survival_Prediction/
 
 ---
 
-This README provides a clear **overview, setup instructions, and evaluation criteria** for your Titanic survival analysis project. Let me know if you want any modifications! 😊
